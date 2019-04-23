@@ -1,0 +1,20 @@
+[package]
+name = "repro-runtime-13"
+version = "0.1.0"
+authors = ["Yoshua Wuyts <yoshuawuyts@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+exitfailure = "0.5.1"
+human-panic = "1.0.1"
+structopt = "0.2.15"
+log = "0.4.6"
+clap_flags = "0.3.0"
+runtime = "0.3.0-alpha.2"
+futures-preview = "0.3.0-alpha.14"
+
+[build-dependencies]
+mkdirp = "0.1.0"
+structopt = "0.2.15"
+clap_flags = "0.3.0"
+failure = "0.1.5"
